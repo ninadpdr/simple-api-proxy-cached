@@ -91,3 +91,7 @@ ENV/
 
 # PyCharm project settings
 .idea/
+
+# Log files stored in project directory after test runs
+logs/
+tests/logs/
