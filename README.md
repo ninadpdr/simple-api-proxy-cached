@@ -56,7 +56,7 @@ This app uses following Python libraries:
 Given an event ID, returns the event title and the first names of its attendees.
 
  - **URL**  
-   `/events-with-subscriptions/:event_id` 
+   `/events-with-subscriptions/:event_id/`
  - **Method**  
    `GET`
  - **URL Params**  
