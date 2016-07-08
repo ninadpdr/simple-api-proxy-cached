@@ -4,7 +4,7 @@ call with a lightweight response. These kind of API Proxies are useful when crea
 order to send as little data as possible over the wire) or when combining multiple different APIs into one.
 
 
-- [Table of contents](#)
+- [Table of contents](#table-of-contents)
 	- [Prerequisites](#prerequisites)
 	- [Setup](#setup)
 	- [Dependencies](#dependencies)
@@ -52,11 +52,11 @@ This app uses following Python libraries:
     
 ## Available APIs
 
-### 1. Events with subscriptions
+#### 1. Events with subscriptions
 Given an event ID, returns the event title and the first names of its attendees.
 
  - **URL**  
-   /events-with-subscriptions/:event_id 
+   `/events-with-subscriptions/:event_id` 
  - **Method**  
    `GET`
  - **URL Params**  
