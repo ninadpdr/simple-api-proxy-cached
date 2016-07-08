@@ -16,3 +16,9 @@ DEFAULT_LOG_LEVEL = 'INFO'
 
 # Response Caching
 RESPONSE_CACHE_TIMEOUT = int(4.2*60)        # 4.2 minutes!
+
+# API Token
+API_TOKEN = '361c5f41768785098059ef77e71af8152dca12e4'
+
+# HTTP status codes
+HTTP_SUCCESS_CODES = [200, 201, 202, 203]

@@ -3,16 +3,16 @@
 
 import unittest
 
-from app import application
+from app import app
 
 
-class HelloWorldTest(unittest.TestCase):
+class TestHelloWorld(unittest.TestCase):
 
     def setUp(self):
         self.endpoint = '/'
 
     def test_service_is_up(self):
-        with application.test_client() as cli:
+        with app.test_client() as cli:
             rv = cli.get(self.endpoint)
             self.assertTrue(rv.status_code == 200)
 
